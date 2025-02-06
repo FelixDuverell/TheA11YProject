@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>A11y News</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <span class="nav-item">Home</span>
+        <span class="nav-item">World</span>
+        <span class="nav-item">Sports</span>
+        <span class="nav-item">Entertainment</span>
+    </nav>
+    <div class="input-container">
+        <input type="text" placeholder="Enter text">
+        <button><a href="#">Submit</a></button>
+    </div>
+    <p class="hidden-text">This text is invisible.</p>
+    <div class="container">
+        <h1>A11y News</h1>
+        <div class="article">
+            <p class="headline">Breaking News: Something Happened!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque, mauris et porta facilisis,
+                eros arcu condimentum nisl.</p>
+            <a href="#" onclick="alert('Clicked!')">Click me</a>
+        </div>
+        <div class="article" onclick="alert('Clicked!')">
+            <p class=" headline">Lunar New Year: Celebrate with us!</p>
+            <div class="image-container">
+                <img src="broken-image.jpg">
+                <img src="/images/tickets.jpg">
+                <img src="/images/lunar.jpg">
+            </div>
+            <p>Access the news by pressing the images</p>
+            <a href="#">Click me</a>
+        </div>
+    </div>
+</body>
+
+</html>

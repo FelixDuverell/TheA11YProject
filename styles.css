@@ -1,0 +1,122 @@
+* {
+  margin: 10px;
+  padding: 5px;
+  box-sizing: content-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+  background: repeating-linear-gradient(45deg, red, yellow 10%, green 20%);
+  color: lime;
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: 5px;
+  word-spacing: 15px;
+  line-height: 1.2em;
+  text-shadow: 5px 5px 10px purple;
+}
+
+.button {
+  background-color: magenta;
+  color: cyan;
+  font-size: 50px;
+  padding: 20px;
+  border: 5px dashed black;
+  cursor: not-allowed;
+  text-transform: uppercase;
+}
+
+.hidden-text {
+  display: block;
+  opacity: 0.1;
+  font-size: 50px;
+  transform: rotate(180deg);
+}
+
+.container {
+  width: 120%;
+  margin-left: -10%;
+  border: 10px solid pink;
+  background-color: rgba(0, 0, 255, 0.2);
+  text-align: center;
+}
+
+.article {
+  border-bottom: 10px dotted orange;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  background: radial-gradient(circle, black, transparent);
+}
+
+.headline {
+  font-size: 80px;
+  font-weight: lighter;
+  color: hotpink;
+  text-decoration: line-through wavy;
+  text-align: right;
+  margin: 50px;
+}
+
+.navigation {
+  background-color: #ff0000;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.navigation .nav-item {
+  color: black;
+  background-color: white;
+  padding: 20px;
+  transform: skewX(20deg);
+}
+
+.navigation .nav-item:hover {
+  color: gold;
+  background-color: darkblue;
+  text-decoration: blink;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.image-container img {
+  width: 400px;
+  height: 100px;
+  object-fit: contain;
+  border: 10px solid red;
+  filter: invert(1) blur(5px);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 5px dashed lime;
+  background: repeating-radial-gradient(circle, cyan, magenta 10%, yellow 20%);
+}
+
+.input-container input {
+  font-size: 30px;
+  padding: 20px;
+  text-align: right;
+  border: 5px solid black;
+  background-color: orange;
+  color: red;
+}
+
+.input-container button {
+  border: 10px ridge pink;
+  background-color: darkred;
+  color: white;
+  font-size: 40px;
+  padding: 30px;
+  cursor: crosshair;
+  transform: rotate(-10deg);
+}
